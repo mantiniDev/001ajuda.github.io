@@ -62,21 +62,21 @@
 
 ## Sugestão de logo e imagens
 
-![Logo](001ajuda.github.io\assets\LOGO\logo1.jpg)
+![Logo](https://www.001ajuda.com.br/assets\LOGO\logo1.jpg)
 
-![Logo](001ajuda.github.io\assets\LOGO\logo2.jpg)
+![Logo](https://www.001ajuda.com.br/assets\LOGO\logo2.jpg)
 
-![Logo](001ajuda.github.io\assets\LOGO\logo3.jpg)
+![Logo](https://www.001ajuda.com.br/assets\LOGO\logo3.jpg)
 
-![Logo](001ajuda.github.io\assets\LOGO\logo4.jpg)
+![Logo](https://www.001ajuda.com.br/assets\LOGO\logo4.jpg)
 
-![Logo](001ajuda.github.io\assets\LOGO\logo5.jpg)
+![Logo](https://www.001ajuda.com.br/assets\LOGO\logo5.jpg)
 
-![Logo](001ajuda.github.io\assets\LOGO\logo6.jpg)
+![Logo](https://www.001ajuda.com.br/assets\LOGO\logo6.jpg)
 
-![Logo](001ajuda.github.io\assets\LOGO\logo7.jpg)
+![Logo](https://www.001ajuda.com.br/assets\LOGO\logo7.jpg)
 
-![Logo](001ajuda.github.io\assets\LOGO\logo8.jpg)
+![Logo](https://www.001ajuda.com.br/assets\LOGO\logo8.jpg)
 
 
 
