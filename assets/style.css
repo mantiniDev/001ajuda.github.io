@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 /* cores */
 .color1 {
@@ -173,7 +174,7 @@ p {
 }
 
 footer {
-  background-image: url('../img/fundo8.jpg');
+  background-color: #f5a506;
   position: unset;
   left: 0;
   bottom: 0;
@@ -207,67 +208,69 @@ footer a p {
 /*______________________________________________________________________________mobile */
 
 @media (max-width: 768px) {
-
   header {
-    padding: 0px;
+    padding: 0;
   }
 
   h1 {
     font-size: 30px;
   }
 
+  /* Centraliza o logo */
+  #logo {
+    display: block;
+    margin: 0 auto; /* Centraliza o logo */
+    padding-bottom: 10px; /* Espaçamento abaixo do logo */
+  }
+
+  /* Ícones sociais na mesma linha */
+  .d-flex.justify-content-center {
+    display: flex;
+    align-items: center; /* Alinha verticalmente os ícones */
+    justify-content: center; /* Centraliza horizontalmente */
+    width: 100%; /* Largura total */
+  }
+
+  /* Menu de Navegação */
   .navbar-nav {
-    margin-left: 0;
-    text-align: center;
-    width: 100%;
+    display: flex; /* Mantém os itens em linha */
+    justify-content: center; /* Centraliza os itens do menu */
+    width: auto; /* Ajusta a largura para auto */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    margin-top: 10px; /* Espaçamento acima do menu */
   }
 
   .navbar-nav .nav-item {
-    width: 100%;
     color: #fff0cc;
+    margin: 0 10px; /* Margem horizontal entre os itens */
   }
 
   .navbar-nav .nav-item a:hover {
     color: #3c586c;
   }
 
-  #logo {
-    position: relative;
-    left: 10px;
+  /* Remove o botão hamburguer */
+  .navbar-toggler {
+    display: none; /* Esconde o botão hamburguer */
   }
 
-  #menu {
-    position: absolute;
-    left: 340px;
-    /* Ajuste o valor conforme necessário */
-    top: 110px;
+  /* Garante que o menu de navegação seja visível no mobile */
+  #navbarNav {
+    display: flex; /* Exibe o menu em linha */
+    flex-direction: column; /* Coloca os itens do menu em coluna */
+    align-items: center; /* Centraliza os itens do menu */
   }
 
-  #whatsapp {
-    position: absolute;
-    left: 50px;
-    /* Ajuste o valor conforme necessário */
-    top: 80px;
+  /* Para garantir que os itens do menu sejam centralizados */
+  #navbarNav .nav-item {
+    width: auto; /* Ajusta a largura para auto */
+    text-align: center; /* Centraliza o texto dos links */
   }
-
-  #instagram {
-    position: absolute;
-    left: 50px;
-    /* Ajuste o valor conforme necessário */
-    top: 130px;
-  }
-
-  .whatsapp-icon {
-    margin-right: 15px;
-    /* Opcional: espaço adicional no mobile */
-  }
-
-  .instagran-icon {
-    margin-right: 15px;
-    /* Opcional: espaço adicional no mobile */
-  }
-
 }
+
+
+
 
 /* ____________________________________________________________________________________________ */
 
@@ -318,7 +321,8 @@ footer a p {
 span {
   margin: 1.5;
   font-weight: bold;
-  font-family: 'Orbitron', regular;
+  font-family: i
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .mantini {
