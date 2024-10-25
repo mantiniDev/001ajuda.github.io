@@ -1,6 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
 
+/* cores */
+.color1 {
+  #02559a;
+}
+
+.color2 {
+  #f5a506;
+}
+
+.color3 {
+  #f6f6f6;
+}
+
+.color1 {
+  #112d39;
+}
+
+/* cabeçalho */
+
+
+
+header {
+  background-color: #f5a506;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  width: auto;
+  height: auto;
+  padding: 20px 0;
+  /* Ajustar conforme necessário */
+  margin: 0;
+  overflow: hidden;
+  /* Evita o colapso de margens */
+  box-sizing: border-box;
+}
+
+.nav-link {
+  color: #f6f6f6;
+  font-weight: bold;
+
+}
+
+.custom-toggler {
+  border-color: #02559a;
+  /* Cor da borda do botão */
+}
+
+.custom-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%2302559a' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+.navbar-nav .nav-item a:hover {
+  color: #3c586c;
+}
 
 body {
   font-family: 'roboto', regular 400;
@@ -11,26 +67,63 @@ body {
   padding: 0;
 }
 
-header {
-  background-color: #005ca4;
-  padding: 20px;
+/* section */
+section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  width: auto;
+  height: auto;
+  padding: 20px 0;
+  /* Ajustar conforme necessário */
+  margin: 0;
+  overflow: hidden;
+  /* Evita o colapso de margens */
+  box-sizing: border-box;
 }
 
+.section1 {
+  background-color: #02559a;
+
+}
+
+.section2 {
+  background-color: #02559a;
+
+}
+
+.section3 {
+  background-color: #02559a;
+
+}
+
+/* fontes */
 h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 70px;
   font-weight: bold;
   font-family: 'Orbitron', regular;
-  color: #ffff;
+  color: #f5a506;
   text-align: center;
+}
+
+h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'roboto', sans-serif;
+  color: #f5a506;
+  text-align: start;
 }
 
 p {
-  margin: 20px 0;
+  margin: 20px 1.5;
   font-family: 'roboto', sans-serif;
-  color: #041726;
-  text-align: center;
+  color: #f6f6f6;
+  text-align: justify;
   text-justify: auto;
+
 }
 
 .btn-primary {
@@ -39,8 +132,8 @@ p {
 }
 
 .btn-primary:hover {
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #007bff;
+  border-color: #007bff;
 }
 
 .btn-primary:focus,
@@ -48,12 +141,43 @@ p {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
 }
 
+/* icones sociais */
+#whatsapp {
+  position: absolute;
+  left: 500px;
+  /* Ajuste o valor conforme necessário */
+  top: 100px;
+}
+
+#instagram {
+  position: absolute;
+  left: 550px;
+  /* Ajuste o valor conforme necessário */
+  top: 100px;
+}
+
+.social-icons a {
+  color: #02559a;
+  /* Cor verde do WhatsApp */
+}
+
+.social-icons a:hover {
+  color: #112d39;
+  /* Cor alterada ao passar o mouse */
+}
+
+/* ___________________________________________________RODAPE_____________________________________ */
+
+.logo-rodape {
+  height: 95px;
+}
+
 footer {
-  position: fixed;
+  background-image: url('../img/fundo8.jpg');
+  position: unset;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #005ca4;
   padding: 10px;
   text-align: center;
   font-size: 14px;
@@ -63,15 +187,140 @@ footer {
 
 footer p {
   margin: 0;
-  color: #041726;
+  color: #fff0cc;
+  text-align: center;
+
 }
 
 footer a {
-  color: #041726;
+  color: #fff0cc;
   text-decoration: none;
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'roboto', sans-serif;
 }
 
-div {
+footer a p {
+  text-align: justify;
+  text-justify: auto;
+}
+
+
+/*______________________________________________________________________________mobile */
+
+@media (max-width: 768px) {
+
+  header {
+    padding: 0px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .navbar-nav {
+    margin-left: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .navbar-nav .nav-item {
+    width: 100%;
+    color: #fff0cc;
+  }
+
+  .navbar-nav .nav-item a:hover {
+    color: #3c586c;
+  }
+
+  #logo {
+    position: relative;
+    left: 10px;
+  }
+
+  #menu {
+    position: absolute;
+    left: 340px;
+    /* Ajuste o valor conforme necessário */
+    top: 110px;
+  }
+
+  #whatsapp {
+    position: absolute;
+    left: 50px;
+    /* Ajuste o valor conforme necessário */
+    top: 80px;
+  }
+
+  #instagram {
+    position: absolute;
+    left: 50px;
+    /* Ajuste o valor conforme necessário */
+    top: 130px;
+  }
+
+  .whatsapp-icon {
+    margin-right: 15px;
+    /* Opcional: espaço adicional no mobile */
+  }
+
+  .instagran-icon {
+    margin-right: 15px;
+    /* Opcional: espaço adicional no mobile */
+  }
+
+}
+
+/* ____________________________________________________________________________________________ */
+
+.aviso {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #030b14;
+  color: #d42c24;
   text-align: center;
+  padding: 15px;
+  display: block;
+  /* Mostrar o aviso por padrão */
+  z-index: 1000;
+}
+
+.aviso p {
+  margin: 0;
+  display: inline-block;
+}
+
+.aviso button {
+  margin-left: 20px;
+  background-color: #d42c24;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.aviso button:hover {
+  background-color: #f96f68;
+}
+
+.link_cookie {
+  color: #d42c24;
+  text-decoration: none;
+}
+
+.link_cookie:hover {
+  text-decoration: underline;
+}
+
+/* ___________________________________________________conteudo do site________________________________ */
+
+span {
+  margin: 1.5;
+  font-weight: bold;
+  font-family: 'Orbitron', regular;
+}
+
+.mantini {
+  font-family: 'Orbitron', regular;
 }
